@@ -25,6 +25,9 @@ public class HomepagePage {
 	
 	public void clickToOpenBasket() {
 		driver.findElement(Basket).click();
+		
+		
+		System.out.println("New Update");
 	}
 	
 	
